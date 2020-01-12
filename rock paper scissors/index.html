@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+  <title> Rock Paper Scissors </title>
+  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="stylesheet" href="css/modal.css"/>
+  <script src="js/main.js"></script>
+</head>
+<body>
+<div class="container">
+  <header class="header">
+    <h1> Rock Paper Scissors </h1>
+    <button class="restart" id="restart-btn">Restart Game</button>
+    <div class="score" id="score">
+      <p>Player : 0</p>
+      <p>Computer : 0</p>
+    </div>
+  </header>
+  <h2> Make your Selection </h2>
+  <div class="choice">
+
+    <img src="images/rock.png" alt="rock" id="rock"/>
+    <img src="images/paper.png" alt="paper" id="paper"/>
+    <img src="images/scissors.png" alt="scissors" id="scissors"/>
+  </div>
+</div>
+
+<!--modal-->
+<div class="modal">
+  <div class="result" id="modal-contents">
+    <h1> You Win! </h1>
+    <img src="images/rock.png" alt="rock"/>
+    <p> Computer chose rock.</p>
+  </div>
+</div>
+
+</body>
+</html>
